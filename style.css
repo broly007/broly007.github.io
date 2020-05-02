@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    height: 10vh;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    border-bottom: 2px solid olive;
+    width: 100%;
+    position: fixed;
+    list-style: none;
+}
+
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#home, #portfolio,  #courses, #aboutUs, #contactUs{
+    height: 100vh;  
+    border-bottom: 2px solid white;
+    border-top: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    display: flex;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
